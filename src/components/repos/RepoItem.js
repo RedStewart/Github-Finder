@@ -2,9 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const RepoItem = ({ repo }) => {
-  console.log(repo.created_at);
-  let createDate = formatDate(repo.created_at);
-  let updateDate = formatDate(repo.updated_at);
+  const createDate = formatDate(repo.created_at);
+  const updateDate = formatDate(repo.updated_at);
 
   return (
     <div className='card grid-2'>
