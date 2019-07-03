@@ -5,6 +5,8 @@ The app implements state management with the ReactJS Context API (useReducer, us
 
 ##### Live Website: [https://udemygithubfinder.netlify.com/](https://udemygithubfinder.netlify.com/)
 
+---
+
 ### Installation
 
 Github Finder requires [Node.js](http://nodejs.org/).
